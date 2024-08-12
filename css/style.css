@@ -27,6 +27,8 @@ nav ul li{
     margin: 30px;
     border: 4px solid #333;
     border-radius: 10px;
+    display: flex;
+    flex-direction: row;
 }
 
 a {
@@ -42,7 +44,7 @@ main {
 }
 
 h1 {
-    text-align: left;
+    text-align: center;
     text-decoration: underline;
     margin: 20px 0px;
 }
@@ -64,163 +66,56 @@ footer {
     text-align: center;
 }
 
-/* ubicacion*/
+/*PRODUCTOS*/
 
-.ubicacion {
-    margin: 20px;
-    border: 2px solid #333;
-    border-radius: 5px;
+.contenedor-cards {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: brown;  
+    justify-content: center;
 }
 
-.imgubicacion {
-    display: block;
-    width: 30%;
-    height: 700px;
+.card {
+    width: 15.625rem;
+    height: 18.75rem;
+    background-color: lightgray;
+    border-radius: .3125rem;
+    box-shadow: 5px 5px 10px ;
+    margin: 5px;
+}
+.card .card-img {
+    width: 100%;
+    height: 60%;
 }
 
-iframe {
-    display: block;
-    margin: auto;
-}
-
-/*empresa*/
-
-.logo2 {
-    margin: 10px;
+.card .card-img img {
+    width: 100%;
+    height: 100%;
     
-    border-radius: 5px;
 }
 
-.imglogo2 {
-    display: block;
-    width: 50%;
-    height: 600px;
-}
-
-/*productos*/
-
-.discos {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-    display: inline-block;
-    text-align: start;
-}
-
-.imgdiscos {
-    display: block;
-    width: 100%;
-    height: 200px;
-}
-.discos p {
-    text-transform: uppercase;
-    font-weight: 700;
-    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2),
-}
-
-.amortiguadores {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-    display: inline-block;
-
-}
-
-.imgamortiguadores {
-    display: block;
-    width: 100%;
-    height: 200px;
-}
-
-.faros {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-    display: inline-block;
-}
-
-.imgfaros {
-    display: block;
-    width: 100%;
-    height: 200px;
-}
-
-.transmicion {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-    display: inline-block;
-}
-
-.imgtransmicion {
-    display: block;
-    width: 100%;
-    height: 200px;
-}
-
-.filtros {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-    display: inline-block;
-}
-
-.imgfiltros {
-    display: block;
-    width: 100%;
-    height: 200px;
-}
-
-.neumaticos {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-    display: inline-block;
-}
-
-.imgneumaticos {
-    display: block;
-    width: 100%;
-    height: 200px;
-}
-
-
-
-/* ACCESO MAYORISTA*/
-h2 {
+.card-info h4 {
     text-align: center;
-
 }
 
-.acople {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-
+.card-info button {
+    text-align: center;
+    background-color: red;
 }
 
-.imgacople {
-    display: block;
-    width: 30%;
-    height: 200px;
-    
+
+/*UBICACION*/
+
+.card-info-ubicacion p{
+    text-align: center;
 }
 
-p {
-    text-align: start;
-    text-decoration: black;
-}
+.img-card {
+    width: 200px;
+    height: 250px;
+    justify-content: flex-start;
 
-.turbo {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-}
-
-.imgturbo {
-    display: block;
-    width: 30%;
-    height: 200%;
 }
 
 .caja {
@@ -259,197 +154,21 @@ p {
     height: 200%;
 }
 
-.cubo {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-}
-
-.imgcubo {
-    display: block;
-    width: 30%;
-    height: 200%;
-}
-
-h4 {
+.card-contacto p {
     text-align: center;
-    color: red;
-}
-
-/* nuevos ingreso*/
-
-.parrilla {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-}
-
-.imgparrilla {
-    display: block;
-    width: 30%;
-    height: 200%
-}
-
-.pastfreno {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-}
-
-.imgpastfreno {
-    display: block;
-    width: 30%;
-    height: 200%
-}
-
-.optica {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-}
-
-.imgoptica {
-    display: block;
-    width: 30%;
-    height: 200%
-}
-
-/* categorias*/
-
-.filtros2 {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-}
-
-.imgfiltros2 {
-    display: block;
-    width: 30%;
-    height: 200%
-}
-
-.frenos {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-}
-
-.imgfrenos {
-    display: block;
-    width: 30%;
-    height: 200%
-}
-
-.carroceria {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-}
-
-.imgcarroceria {
-    display: block;
-    width: 30%;
-    height: 200%
-}
-
-.suspencion {
-    margin: 10px;
-    border: 5px solid #333;
-    border-radius: 5px;
-}
-
-.imgsuspencion {
-    display: block;
-    width: 30%;
-    height: 200%
 }
 
 
-/*contacto*/
-
-form {
-    margin-top: 20px;
-
-}
-
-label {
-    display: block;
-    font-weight: bold;
-    margin-bottom: 5px;
-    color: #333;
-
-}
-
-input,
-textarea {
-    display: block;
-    width: 100%;
-    padding: 10px;
-    border: 2px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-    margin-bottom: 10px;
-}
-
-.btnformulario {
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-size: 18px;
-    cursor: pointer;
-    margin-top: 10px;
-
-}
-
-/*lo hacemos responsive*/
-
-/*vista tablet*/
-/*768px hasta 1023px*/
-
+/* vista tablet*/
 @media (max-width:1023px) {
-    /*header*/
-
-    .encabezado {
+    .header {
         height: auto;
         flex-direction: column;
         text-align: center;
     }
 
-    .encabezado .boton {
-        display: none;
-    }
-
-    /*banner*/
-
-    .bannerContenido p {
-        font-size: 2.5rem;
-    }
-
-    /*  */
-}
-
-.imglogo {
-    display: grid;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: auto;
-}
-
-@media (max-width:480px) {
-    .imglogo {
-        display: grid;
-        justify-content: center;
-        height: auto;
-        width: auto;
-    }
-
-    .imgubicacion {
-        margin: auto;
-        display: block;
-        width: 100%;
-        height: 100%
+    .logodetoyako{
+        display: auto;
     }
 }
+

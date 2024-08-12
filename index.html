@@ -17,7 +17,6 @@
                 <li><a href="html/empresa.html">Empresa</a></li>
                 <li><a href="html/productos.html">Productos</a></li>
                 <li><a href="html/ubicacion.html">Ubicacion</a></li>
-                <li><a href="html/acceso mayorista.html">Acceso Mayorista</a></li>
                 <li><a href="html/contactos.html">Contactos</a></li>
             </ul>
         </nav>
@@ -27,8 +26,9 @@
     </header>
 
     <main>
-
+        <section class="seccion-empresa">
         <h2>EMPRESA</h2>
+        <section class="contenedor-empresa">
         <h3>MISION</h3>
         <p>Proporcionar repuestos alternativos de alta calidad 
             para vehículos Toyota, ofreciendo
@@ -56,46 +56,88 @@
         <p>INNOVACION</p>
         <p>SUSTENTABILIDAD</p>
 
-        
-        <h2>PRODUCTOS</h2>
+        </section>
+
+    </section>
+
+        <!-- PRODUCTOS -->
+
+<section class="seccion-productos">
+    <h2>PRODUCTOS</h2>
+    <section class="contenedor-cards">
+        <article class="card">
+            <div class="card-img">
+                <img src="./assets/discos.png " alt="discos">
+            </div>
+            <div class="card-info">
+                <h4>DISCOS</h4>
+                <button>COMPRAR</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-img">
+                <img src="./assets/amortiguadores.png " alt="amortiguadores">
+            </div>
+            <div class="card-info">
+                <h4>AMORTIGUADORES</h4>
+                <button>COMPRAR</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-img">
+                <img src="./assets/faros.png " alt="faros">
+            </div>
+            <div class="card-info">
+                <h4>FAROS</h4>
+                <button>COMPRAR</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-img">
+                <img src="./assets/transmicion.png " alt="transmicion">
+            </div>
+            <div class="card-info">
+                <h4>TRANSMICION</h4>
+                <button>COMPRAR</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-img">
+                <img src="./assets/filtros.png " alt="filtros">
+            </div>
+            <div class="card-info">
+                <h4>FILTROS</h4>
+                <button>COMPRAR</button>
+            </div>
+        </article>
+
+        <article class="card">
+            <div class="card-img">
+                <img src="./assets/neumaticos.png " alt="neumaticos">
+            </div>
+            <div class="card-info">
+                <h4>NEUMATICOS</h4>
+                <button>COMPRAR</button>
+            </div>
+        </article>
+
+    </section>
+
+</section>
 
 
-        <div class="discos">
-            <img class="imgdiscos" src="./assets/discos.png " alt="discos">
-        </div>
-        <p>DISCOS</p>
-
-        <div class="amortiguadores">
-            <img class="imgamortiguadores" src="./assets/amortiguadores.png " alt="amortiguadores">
-        </div>
-        <p>AMORTIGUADORES</p>
-
-        <div class="faros">
-            <img class="imgfaros" src="./assets/faros.png " alt="faros">
-        </div>
-        <p>FAROS</p>
-
-        <div class="transmicion">
-            <img class="imgtransmicion" src="./assets/transmicion.png " alt="transmicion">
-        </div>
-        <p>TRANSMICION</p>
-
-        <div class="filtros">
-            <img class="imgfiltros" src="./assets/filtros.png " alt="filtros">
-        </div>
-        <p>FILTROS</p>
-
-        <div class="neumaticos">
-            <img class="imgneumaticos" src="./assets/neumaticos.png " alt="neumaticos">
-        </div>
-        <p>NEUMATICOS</p>
-
-
-
+<section class="seccion-ubicacion">
+    <section class="contenedor-ubicacion">
         <h2>ENCONTRANOS EN</h2>
-        <div class="ubicacion">
-            <img class="imgubicacion" src="assets/mapa.png" alt="mapa ubicacion">
+        <articule class="card-ubicacion">
+        <div class="img-card">
+            <img src="assets/mapa.png" alt="mapa ubicacion">
         </div>
+        <div class="card-info-ubicacion">
         <h3>CORDOBA</h3>
         <p>Cordoba, Rio Cuarto, Villa Maria</p>
         <h3>BUENOS AIRES</h3>
@@ -112,10 +154,17 @@
         <p>Formosa</p>
         <h3>NEUQUEN</h3>
         <p>Neuquen</p>
+        </div>
+        </articule>
 
+    </section>
 
+</section>
+
+<section class="seccion-contacto">
         <h2>CONTACTO</h2>
-
+        <section class="contenedor-contacto">
+        <article class="card-contacto">
         <h3>VENTAS</h3>
         <p>ventas@toyacoparts.com</p>
         
@@ -148,13 +197,17 @@
 
         
         </form>
+        </article>
+
+        </section>
+</section>
         
 
 
 
         <h3>SEGUINOS EN REDES SOCIALES</h3>
 
-    </main>
+    
     
     
 </body>
