@@ -66,6 +66,20 @@ footer {
     text-align: center;
 }
 
+
+/*nuestros valores*/
+
+.info-valores p {
+    text-align: center;
+
+}
+
+.logo2 {
+    width: 12.5rem;
+    height: 15.625rem;
+    justify-items: center;
+}
+
 /*PRODUCTOS*/
 
 .contenedor-cards {
@@ -103,6 +117,8 @@ footer {
     text-align: center;
     background-color: red;
 }
+
+
 
 
 /*UBICACION*/
@@ -158,17 +174,72 @@ footer {
     text-align: center;
 }
 
+/*mayorista*/
 
-/* vista tablet*/
-@media (max-width:1023px) {
-    .header {
-        height: auto;
-        flex-direction: column;
-        text-align: center;
-    }
+/*contenedor-mayorista
 
-    .logodetoyako{
-        display: auto;
-    }
+.contenedor-mayorista {
+    display:flex ;
+    flex-direction: row;
+    background-color: #c90000;
 }
+
+.card-mayorista {
+    width: 15.625rem;
+    height: 18.75rem;
+    background-color: lightgray;
+    border-radius: .3125rem;
+    box-shadow: 5px 5px 10px ;
+    margin: 5px;
+}
+
+.card-mayorista .card-imagenes {
+    width: 100%;
+    height: 60%;
+}
+
+.card-mayorista .card-imagenes img {
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+/*contenedor-categorias*/
+
+.contenedor-categorias {
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #333;
+}
+
+.card-categorias {
+    width: 15.625rem;
+    height: 18.75rem;
+    background-color: lightgray;
+    border-radius: .3125rem;
+    box-shadow: 5px 5px 10px ;
+    margin: 5px;
+}
+
+.card-categorias .card-imagenes {
+    width: 100%;
+    height: 60%;
+}
+
+.card-categorias .card-imagenes img {
+    width: 100%;
+    height: 100%;
+}
+
+.info-categorias {
+    text-align: center
+}
+
+
+
 

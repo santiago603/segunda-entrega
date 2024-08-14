@@ -1,0 +1,51 @@
+<!--MAYORISTA-->
+
+    <!--  <section class="seccion-mayorista">
+            <section class="contenedor-mayorista">
+                <h2>ARTICULOS DESTACADOS</h2>
+                
+                <article class="card-mayorista">
+                    <div class="card-imagenes">
+                        <img src="../assets/turbo.png " alt="turbo">
+                    </div>
+                    <div class="info-mayorista">
+                        <h4>TURBO YARIS GR 2.8 1GD 2021-2024</h4>
+                        <button>COMPRAR</button>
+                    </div>
+                
+        
+                <article class="card-mayorista">
+                    <div class="card-imagenes">
+                        <img src="../assets/caja.png " alt="caja">
+                    </div>
+                    <div class="info-mayorista">
+                        <h4>CAJA DE DIRRECIONES COROLLA 2019-2024</h4>
+                        <button>COMPRAR</button>
+                    </div>
+                
+        
+                <article class="card-mayorista">
+                    <div class="card-imagenes">
+                        <img src="../assets/aceitecaja.png " alt="aceitecaja">
+                    </div>
+                    <div class="info-mayorista">
+                        <h4>ACEITE CAJA ATF-WS 4L YARIS GR/ETIOS</h4>
+                        <button>COMPRAR</button>
+                    </div>
+                
+        
+                <article class="card-mayorista">
+                    <div class="card-imagenes">
+                        <img src="../assets/aceite.png " alt="aceite">
+                    </div>
+                    <div class="info-mayorista">
+                        <h4>ACEITE MOTOR 5W-30 BIDON 4LT</h4>
+                        <button>COMPRAR</button>
+                    </div>
+        
+                </article>
+        
+            </section>
+        
+        </section>
+--!    
